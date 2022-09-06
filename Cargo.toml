@@ -1,0 +1,21 @@
+[package]
+name = "posix-errno"
+version = "1.0.0"
+authors = ["John Millikin <john@john-millikin.com>"]
+description = "POSIX error numbers"
+readme = "README.md"
+repository = "https://github.com/jmillikin/rust-posix-errno"
+license = "0BSD"
+
+categories = [
+	"no-std",
+	"os::unix-apis",
+]
+
+include = [
+	"/LICENSE.txt",
+	"/posix-errno/posix-errno.rs",
+]
+
+[lib]
+path = "posix-errno/posix-errno.rs"
