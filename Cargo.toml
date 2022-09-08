@@ -1,6 +1,6 @@
 [package]
 name = "posix-errno"
-version = "1.0.0"
+version = "1.0.1"
 authors = ["John Millikin <john@john-millikin.com>"]
 description = "POSIX error numbers"
 readme = "README.md"
